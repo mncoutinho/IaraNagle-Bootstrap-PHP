@@ -919,70 +919,46 @@ body.app_version .header_style_01.fixed-menu{
     TESTIMONIALS
 -------------------------------------------------------------------*/
 #card-apoiadores{
-    background-image: url("./uploads/parallax_05.png");
-    height: 580px;
+    background-image: url("./uploads/parallax_05.png") no-repeat;
+    height: 580px; 
     border-style: solid 4px #ffffff ;
 }
 .card-image{
-    width: 50%;
     padding-top: 10%;
-    margin: 0 25%;
 }
 .card-title h3{
     padding-top:15px;
-    color:#fe0d78;
+    color:#ffffff;
     font-size: 24px;
     font-weight: bold;
     font-family: "univia-b";
     font-style: italic;
 
 }
-
-.card-subtitle h5, h6{
-    margin: 0 auto;
-    color:#ffffff;
+.card-footer h3{
+    padding-top:15px;
+    color:#fe0d78;
+    font-size: 24px;
+    font-weight: bold;
     font-family: "univia-b";
-
+    font-style: italic;
 }
+.card-footer p{
+    padding-top:15px;
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "univia-b";
+    
+}
+
 
 .card-text{
     color:#ffffff;
+    font-size: 20px;
     margin:0 5%;
 }
 
-.testi-carousel{
-    padding: 50px 20px 35px 20px;
-    background: #fff;
-    text-align: center;
-    box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
-}
-.testimonial .description{
-    font-size: 14px;
-    color: #777;
-    line-height: 26px;
-    text-indent: 30px;
-    position: relative;
-}
-.testimonial .description:before{
-    content: "\f10d";
-    font-family:'FontAwesome';
-    font-weight: 900;
-    position: absolute;
-    top: 0;
-    left: -15px;
-}
-.testimonial .title{
-    font-size: 24px;
-    font-weight: bold;
-    color: #363636;
-    text-transform: capitalize;
-    margin: 0;
-}
-.testimonial .post{
-    display: block;
-    font-size: 15px;
-    color: #363636;
-}
 .owl-buttons{
     width: 100%;
     height: 40px;
@@ -1802,7 +1778,17 @@ body.app_version .dev-list .widget-title small{
 .fa-angle-right{
  color: #fff;	
 }
-
+#marcatexto{
+    background-color: #ffff00;
+    max-width:290px;
+}
+#marcatexto2{
+    background-color: #ffff00;
+    max-width:390px;
+}
+.modal{
+    font-family: Arial, Helvetica, sans-serif;
+}
 @media screen and (max-width: 768px){
 	.home-selo{
 		top: 20px;
