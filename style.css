@@ -919,12 +919,8 @@ body.app_version .header_style_01.fixed-menu{
     TESTIMONIALS
 -------------------------------------------------------------------*/
 #card-apoiadores{
-    background-image: url("./uploads/parallax_05.png") no-repeat;
+    background-image: url("./apoiadores/parallax_05.png") no-repeat;
     height: 580px; 
-    border-style: solid 4px #ffffff ;
-}
-.card-image{
-    padding-top: 10%;
 }
 .card-title h3{
     padding-top:15px;

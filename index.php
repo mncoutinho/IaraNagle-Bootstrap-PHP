@@ -16,6 +16,11 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="aguia">
+	   <!-- ALL JS FILES -->
+	   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script type="text/javascript">$(document).ready(function(){$('#ExemploModalCentralizado').modal('show');});</script>
 
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/modal/Slide1.jpg" type="image/x-icon" />
@@ -29,12 +34,6 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- FontAwesome-->
 	<script src="https://kit.fontawesome.com/5b1adee37c.js" crossorigin="anonymous"></script>
-	   <!-- ALL JS FILES -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<script src="js/all.js"></script>
-	<script type="text/javascript">$(document).ready(function(){$('#ExemploModalCentralizado').modal('show');});</script>
     <!-- ALL PLUGINS -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -134,12 +133,12 @@
 						data-toggle="tooltip" 
 						data-placement="bottom" 
 						title="Acesso a todos os serviços, de forma descomplicada; Emissão de certidões e consultas, sem custo, pelo portal com certificação individual.">
-							<p>Sistema de informática amigável e intuitivo, com token de certificação digital para todos;</p>
+							<p>Sistema de informática amigável e intuitivo, com token de certificação digital gratis para todos;</p>
 						</div>				
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
-						title="Aproveitamento das expertises dos funcionários e colaboradoes, com treinamento permanente, e combate ao aparelhamento politico-partidário.">
+						title="Aproveitamento das expertises dos funcionários e colaboradores, com treinamento permanente; Combate ao aparelhamento politico-partidário.">
 							<p>Valorização do Quadro de Funcionários;</p>
 						</div>	
 						<div class="info-box" 
@@ -158,7 +157,7 @@
 						data-toggle="tooltip" 
 						data-placement="bottom" 
 						title="Compromisso de respeito e prioridade ao profissional">
-							<p>Emissão de certidões e carteira em, no máximo, 48 horas.</p>
+							<p>Emissão de certidões e carteira em até 48 horas.</p>
 						</div>
 					</div>
 				</div>
@@ -170,26 +169,26 @@
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
-						title="Cadastro de vagas c/ disponibilização direta através do portal; Escritório compartilhado com total infraestrutura para uso do profissional; Orientação jurídica inclusive.">
+						title="Disponibilização de vagas diretamente através do portal; Escritório compartilhado com total infraestrutura para uso do profissional, com orientação jurídica inclusive.">
 							<p>Criação de Banco de Empregos e "Coworking" com infraestrutura completa;</p>
 						</div>
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
-						title="Assistência técnica para habitações de interesse social(ATHIS), Regularização fundiária, Autovistoria predial, etc.">
+						title="Ex: Assistência técnica para habitações de interesse social (ATHIS), Regularização fundiária, Autovistoria predial, e outros.">
 							<p>Convênios para prestação de serviços técnicos pelos profissionais (AMPLIAÇÃO DO MERCADO DE TRABALHO);</p>
 						</div>
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
-						title="Com ampliação e disponibilização de vagas em cursos subsidiados; Noções de empreendedorismo, direito, etiqueta profissional, coaching, etc.">
-							<p>Estímulo à maior participação do estudante e do recém formado, com preparação para a vida profissional(Estágio);</p>
+						title="Com ampliação e disponibilização de vagas em cursos subsidiados; Orientação em empreendedorismo, coaching, noções de direito, etiqueta profissional, etc.">
+							<p>Estímulo à maior participação do estudante e do recém formado, com preparação para o mercado (Estágio profissional);</p>
 						</div>
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
-						title="Disponibilização de cursos de extensão, pós-graduação, e atualização profissional, através de convênios com entidades de classe e de ensino, com as novas tecnologias presentes.">
-							<p>Implantação de educação continuada, subsidiada, com uso das novas tecnologias, subsidiada pelo CREA-RJ;</p>
+						title="Disponibilização de cursos de extensão, pós-graduação e atualização profissional, subsidiados pelo CREA-RJ, através de convênios com entidades de classe e de ensino, com as novas tecnologias presentes.">
+							<p>Implantação de educação continuada, para atualização e qualificação profissional, com uso das novas tecnologias;</p>
 						</div>
 						<div class="info-box" 
 						data-toggle="tooltip" 
@@ -200,14 +199,20 @@
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
-						title="Participação na proposição e discussão de legislação, municipal, estadual e federal, em defesa do profissional, da sociedade e da vida.">
+						title="Participação na proposição, discussão e acompanhamento de projetos de lei, municipal, estadual e federal, em defesa da Engenharia, da Sociedade e da VIDA.">
 							<p>Criação da "Frente Parlamentar em Defesa da Engenharia", com participação das entidades de classe e profissionais;</p>
 						</div>
-							<p>Participação efetiva em grupos, fóruns e comissões para discussão das políticas públicas;</p>
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
-						title="Criação de Programa, com acesso direto à presidencia/plenário/entidades, para proposições de politicas publicas.">
+						title="Participação efetiva em grupos, fóruns e comissões para discussão das políticas públicas.">
+							<p>Participação dos profissionais
+								PARTICIPAÇÃO DOS PROFISSIONAIS NAS COMISSÕES E FÓRUNS DA SOCIEDADE CIVIL/GOVERNOS;</p>
+						</div>
+						<div class="info-box" 
+						data-toggle="tooltip" 
+						data-placement="bottom" 
+						title="Criação de Programa, com acesso direto à Presidência/Plenário/Entidades, para proposições de politicas públicas.">
 							<p>Criação do "Programa Mulher" como Órgão Consultivo do CREA-RJ;</p>
 						</div>
 		  
@@ -218,12 +223,12 @@
 						<h1 class="text-center" id="TituloPropostas"><b>Fiscalização</b></h1>
 					</div>
 					<div class="col-8 py-2" id="fiscalizaçãoTexto">
-						<p>Entrega da Cartilha "Orienta Crea-RJ" com resumo das principais normas, deveres e direitos;</p>
-						<p>Impedimento do exercício ilegal da profissão pelo leigo, em defesa do profissional, da sociedade e da vida;</p>
+						<p>Cartilha "Orienta Crea-RJ" com as principais normas, deveres e direitos do profissional;</p>
+						<p>Coibição do exercício ilegal da profissão pelo leigo, em defesa do Profissional e da Vida;</p>
 						<p>Fiscalização dos órgãos públicos e dos editais de concurso, exigindo o cumprimento da lei;</p>
 						<p>Extinção da aplicação de penalidades compulsórias aos profissionais;</p>
-						<p>Concessão de prazo de 10 dias para defesa do profissional junto ao CREA, antes da penalização;</p>
-						<p>Desenvolvimento do aplicativo "Cidadão Fiscal", para denúncias diretas ao Conselho.</p>
+						<p>Concessão de prazo de 10 dias para defesa do profissional junto ao CREA-RJ, antes da penalização;</p>
+						<p>Desenvolvimento do aplicativo "Cidadão Fiscal", para denúncias diretas junto ao CREA-RJ.</p>
 					</div>
 				</div>
 				<div class="row my-auto border">
@@ -231,7 +236,7 @@
 						<h1 class="text-center" id="TituloPropostas"><b>Benefícios</b></h1>
 					</div>
 					<div class="col-8 py-2" id="beneficiosTexto">
-						<p>Implantação da ART Social para prestação de serviços especiais para baixa renda;</p>
+						<p>Implantação da ART Social para prestação de serviços especiais e para baixa renda;</p>
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
@@ -244,10 +249,10 @@
 						title="Plano de saúde médico e dentário, creches, clubes, cursos, viagens, etc.">
 							<p>Realização de convênios com descontos em compras e serviços;</p>
 						</div>
-						<p>Instalação de biblioteca com consulta gratuita às normas técnicas da ABNT pelos profissionais;</p>
-						<p>Oferta de "degustação" por 1 ano de associatividade a uma entidade de classe, subsidiada pelo CREA-RJ;</p>
-						<p>Luta pela revisão dos valores de taxas, por escala e da anuidade com base nas ART's registradas;</p>
-						<p>Reinaguração do Centro Cultural CREA-RJ.</p>
+						<p>Instalação de biblioteca com consulta gratuita às Normas Técnicas da ABNT;</p>
+						<p>Oferta de "degustação" de associatividade a uma entidade de classe, subsidiada;</p>
+						<p>Luta pela revisão e redução dos valores de taxas e anuidade com base nas ART's registradas;</p>
+						<p>Reinaguração do Centro Cultural <i>"JOSÉ CHACON DE ASSIS"</i>.</p>
 	
 					</div>
 				</div>
@@ -270,7 +275,7 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<div id="card-apoiadores">
-							<div class="card-image text-center">
+							<div class="card-image text-center my-5">
 								<img src="apoiadores/Bruno.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
@@ -287,7 +292,7 @@
 					</div>
 					<div class="carousel-item">
 						<div id="card-apoiadores">
-							<div class="card-image text-center">
+							<div class="card-image text-center my-5">
 								<img src="apoiadores/suzanaSattamini.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
@@ -304,7 +309,7 @@
 					</div>
 					<div class="carousel-item">
 						<div id="card-apoiadores">
-							<div class="card-image text-center">
+							<div class="card-image text-center my-5">
 								<img src="apoiadores/AntonioBatista.png">
 							</div>
 							<div class="card-title">
@@ -322,7 +327,7 @@
 					</div>
 					<div class="carousel-item">
 						<div id="card-apoiadores">
-							<div class="card-image text-center">
+							<div class="card-image text-center my-5">
 								<img src="apoiadores/EdisonNogueira.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
@@ -338,10 +343,10 @@
 						</div>
 					</div>
 				</div>
-				<a class="carousel-control-prev" role="button" data-slide="prev">
+				<a class="carousel-control-prev" href="#carouselApoiadores" role="button" data-slide="prev">
 					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 				</a>
-				<a class="carousel-control-next" role="button" data-slide="next">
+				<a class="carousel-control-next" href="#carouselApoiadores" role="button" data-slide="next">
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				</a>
 			</div>
@@ -423,6 +428,7 @@
 						<h5><b>ROTEIRO PARA ESCOLHA DE LOCAL DE VOTAÇÃO</b></h5>
 						<p>1 - Entre no site do CREA/RJ: <a style="color:blue"href="https://novoportal.crea-rj.org.br" target="_blank" >https://novoportal.crea-rj.org.br</a></p>
 						<p id="marcatexto"><b>(Utilize o Navegador MOZILLA FIREFOX)</b></p>
+						<small style="color:red">link para baixar no rodapé</small>
 						<div class="row my-2">
 							<div class="col">
 								<p class="d-inline">2 - Clique em <b>SERVIÇOS:</b></p>
