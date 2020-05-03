@@ -1179,6 +1179,9 @@ body.app_version .header_style_01.fixed-menu{
     margin: 20px 10%;
     width: 80%;
 }
+#TituloPropostas{
+    font-size: 48px;
+}
 #gestao{
     background-color: #dc137b;
 }
@@ -1451,6 +1454,9 @@ footer{
 /*------------------------------------------------------------------
     Modal
 -------------------------------------------------------------------*/
+.modal{
+    color: black
+}
 
 /*------------------------------------------------------------------
     MISC
@@ -1822,3 +1828,19 @@ hr {
 .title-uni {
 	font-family: 'univia-b';
 }
+@media (max-width: 1000px) {
+    #TituloPropostas{
+        font-size: 40px;
+    }
+}
+@media (max-width: 780px) {
+    #TituloPropostas{
+        font-size: 36px;
+    }
+}
+@media (max-width: 720px) {
+    #TituloPropostas{
+        font-size: 30px;
+    }
+}
+

@@ -457,12 +457,14 @@
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
 					<button type="button" 
-					href="https://novoportal.crea-rj.org.br" 
-					target="_blank"
-					class="btn btn-primary">Acessar Portal CREA-RJ</button>
-					<button href="https://www.mozilla.org/pt-BR/firefox/download/thanks/" 
-					target="_blank"
-					type="button" class="btn btn-primary">Baixar Firefox</button>
+" 					class="btn btn-primary">
+						<a href="https://www.mozilla.org/pt-BR/firefox/download/thanks/" style="color: white"  target="_blank">
+							Acessar Portal CREA-RJ
+						</a>
+					</button>
+					<button type="button" class="btn btn-primary">
+					<a href="https://www.mozilla.org/pt-BR/firefox/download/thanks/" style="color: white" target="_blank">Baixar Firefox</a>
+					</button>
 				</div>
 			</div>
 		</div>
