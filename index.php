@@ -20,8 +20,8 @@
 	   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-	<script type="text/javascript">$(document).ready(function(){$('#ExemploModalCentralizado').modal('show');});</script>
-
+	<!--<script type="text/javascript">$(document).ready(function(){$('#ExemploModalCentralizado').modal('show');});</script>
+-->
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/modal/Slide1.jpg" type="image/x-icon" />
     <!-- Bootstrap CSS -->
@@ -77,12 +77,12 @@
 					<img src="images/iara-txt.png" width="100%"><br>
 					<a href="#perfil" 
 					class="hvr-bounce-to-right cd-hero__btn" >Conheça Iara Nagle</a>	
-					<br>		
+				<!--	<br>		
 					<a
 					class="hvr-bounce-to-right cd-hero__btn" 
 					style="color: black" 
 					data-toggle="modal"
-					data-target="#ExemploModalCentralizado">Conheça Como Votar</a>			
+					data-target="#ExemploModalCentralizado">Conheça Como Votar</a>			-->
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<img src="images/iara-top.png" width="100%">
@@ -206,8 +206,7 @@
 						data-toggle="tooltip" 
 						data-placement="bottom" 
 						title="Participação efetiva em grupos, fóruns e comissões para discussão das políticas públicas.">
-							<p>Participação dos profissionais
-								PARTICIPAÇÃO DOS PROFISSIONAIS NAS COMISSÕES E FÓRUNS DA SOCIEDADE CIVIL/GOVERNOS;</p>
+							<p>Participação dos profissionais nas comissões e fóruns da sociedade civil/governos;</p>
 						</div>
 						<div class="info-box" 
 						data-toggle="tooltip" 
@@ -240,7 +239,7 @@
 						<div class="info-box" 
 						data-toggle="tooltip" 
 						data-placement="bottom" 
-						title="Convênios junto ao comércio e serviõs para pontuação e retorno aos profissionais.">
+						title="Convênios junto ao comércio e serviços para pontuação e retorno aos profissionais.">
 						<p>Implantação do programa "Anuidade Zero", através de convênios de fidelização junto às empresas;</p>
 						</div>
 						<div class="info-box" 
@@ -260,7 +259,7 @@
 		  </div>
 	</section> <!-- .cd-hero -->
 	<div id="apoiadores" class="section wb section-parceiros">
-        <div class="container">
+        <div class="">
             <div class="section-title text-center">
               <h3 class="text-white title-uni">Parceiros </h3>
 			  <hr>
@@ -274,15 +273,16 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<div id="card-apoiadores">
-							<div class="card-image text-center my-5">
-								<img src="apoiadores/Bruno.png" class="img-fluid img-rounded">
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center mb-5">
+								<img src="apoiadores/Bruno.png" class="img-fluid img-rounded">	
 							</div>
-							<div class="card-title">
-								<h3 class="text-center">DEPOIMENTO</h3>
+							<div class="card-title clearfix">
+							<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center"><b>"Apoio Iara Nagle por entender que o Conselho precisa de mudanças e de maior valorização profissinal."</b></p>
+								<p class="text-center">"Eu apoio Iara Nagle para a Presidência do CREA-RJ<b> por entender que o Conselho precisa de mudanças e de maior valorização profissional."</b></p>
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">BRUNO DE BONIS</h3>
@@ -290,16 +290,17 @@
 							</div>
 						</div>
 					</div>
-					<div class="carousel-item">
-						<div id="card-apoiadores">
-							<div class="card-image text-center my-5">
+					<div class="carousel-item text-center">
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center mb-5">
 								<img src="apoiadores/suzanaSattamini.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
-								<h3 class="text-center">DEPOIMENTO</h3>
+								<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+								<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center"><b>Por um conselho que valorize seus profissionais, com gestão informatizada, ágil e descomplicada,</b> eu apoio Iara Nagle para Presidente do CREA-RJ."</p>
+								<p class="text-center"><b>"Por um conselho que valorize seus profissionais, com gestão informatizada, ágil e descomplicada,</b> eu apoio Iara Nagle para Presidente do CREA-RJ."</p>
 							</div> 
 							<div class="card-footer">
 								<h3 class="text-center">SUZANA SATTAMINI</h3>
@@ -308,16 +309,17 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<div id="card-apoiadores">
-							<div class="card-image text-center my-5">
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center mb-5">
 								<img src="apoiadores/AntonioBatista.png">
 							</div>
 							<div class="card-title">
-								<h3 class="text-center">DEPOIMENTO</h3>
+								<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+								<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p style="font-size:18px" class="text-center"><b>"Por conhecer a sua seriedade e competência e por acreditar que ela tornará o nosso Conselho mais eficiente e útil aos profissionais.</b></p>
-								<p style="font-size:18px" class="text-center"><b>Sou candidato a Diretor Geral da MUTUA-RJ, número 62, e a nossa parceria fará a diferença."</b></p>
+								<p class="text-center ">"Eu apoio a IARA para Presidente do CREA-RJ,<b> por conhecer a sua seriedade e competência e acreditar que o Conselho será mais eficiente e útil para todos nós .</b></p>
+								<p class="text-center"><b>Sou candidato a Diretor Geral da MUTUA-RJ, número 62, e a nossa parceria fará a diferença."</b></p>
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">ANTONIO BATISTA</h3>
@@ -326,15 +328,16 @@
 						</div>
 					</div>
 					<div class="carousel-item">
-						<div id="card-apoiadores">
-							<div class="card-image text-center my-5">
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center mb-5">
 								<img src="apoiadores/EdisonNogueira.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
-								<h3 class="text-center">DEPOIMENTO</h3>
+							<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center">"Apoio a Iara Nagle para Presidente do CREA-RJ <b>pela sua experiência nas entidades de classe e no Sitema Confea/Crea e por acredtar na valorização da Engenharia."</b></p>
+								<p class="text-center">"Apoio a Iara Nagle para Presidente do CREA-RJ <b>pela sua experiência nas entidades de classe e no Sistema Confea/Crea e por acreditar na valorização da Engenharia."</b></p>
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">EDISON NOGUEIRA</h3>
@@ -344,10 +347,10 @@
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselApoiadores" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					
 				</a>
 				<a class="carousel-control-next" href="#carouselApoiadores" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					
 				</a>
 			</div>
 		</div>
@@ -410,6 +413,7 @@
 	</div>
 
     <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+	<!-- 
 	<div class="modal fade" 
 	id="ExemploModalCentralizado" 
 	tabindex="-1" role="dialog" 
@@ -506,7 +510,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 
 

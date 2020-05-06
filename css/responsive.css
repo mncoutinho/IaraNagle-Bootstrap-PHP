@@ -496,4 +496,22 @@
     #TituloPropostas{
         font-size: medium;
     }
+    .card-title h3{
+
+        font-size: 20px;
+  ;
+    
+    }
+    .card-footer h3{
+
+        font-size: 20px;
+ 
+    }
+    .card-footer p{
+
+        font-size: 15px;
+
+        
+    }
+
 }

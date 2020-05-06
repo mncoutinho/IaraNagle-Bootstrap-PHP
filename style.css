@@ -920,29 +920,29 @@ body.app_version .header_style_01.fixed-menu{
 -------------------------------------------------------------------*/
 #card-apoiadores{
     background-image: url("./apoiadores/parallax_05.png") no-repeat;
-    height: 580px; 
+    height: 580px;
+    width: 70%; 
+
 }
+
 .card-title h3{
-    padding-top:15px;
     color:#ffffff;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     font-family: "univia-b";
     font-style: italic;
 
 }
 .card-footer h3{
-    padding-top:15px;
     color:#fe0d78;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     font-family: "univia-b";
     font-style: italic;
 }
 .card-footer p{
-    padding-top:15px;
     color:#ffffff;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     font-family: "univia-b";
     
@@ -952,7 +952,7 @@ body.app_version .header_style_01.fixed-menu{
 .card-text{
     color:#ffffff;
     font-size: 20px;
-    margin:0 5%;
+
 }
 
 .owl-buttons{
@@ -1825,4 +1825,30 @@ hr {
         font-size: 30px;
     }
 }
+@media (max-width: 450px){
+    .card-text{
+        font-size:18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .card-apoiadores{
+        height:700px ;
+    }
+    .card-title h3{
 
+        font-size: 18px;
+  ;
+    
+    }
+    .card-footer h3{
+
+        font-size: 18px;
+ 
+    }
+    .card-footer p{
+
+        font-size: 15px;
+
+        
+    }
+}
