@@ -1222,6 +1222,27 @@ padding: 35% 0;
     font-weight: bold;
     color:#ffffff; 
 }
+#avisoProposta{
+    color:red;
+}
+#avisoProposta:hover{
+    color:#ffffff;
+}
+
+#compromisso{
+    background-color: #003a62;
+}
+#compromissoTitulo{
+    color:#dc137b;
+    font-size:40px ;
+    font-weight: bolder;
+}
+#compromissoTexto{
+    color:white;
+    font-size: 26px;
+    width: 80%;
+    margin-left: 10%;
+}
 /*------------------------------------------------------------------
     CONTACT
 -------------------------------------------------------------------*/
@@ -1823,6 +1844,11 @@ hr {
 @media (max-width: 720px) {
     #TituloPropostas{
         font-size: 30px;
+    }
+}
+@media (max-width:540px) {
+    #TituloPropostas{
+        font-size: 26px;
     }
 }
 @media (max-width: 450px){
