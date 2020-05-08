@@ -271,7 +271,7 @@
 						<p>Instalação de biblioteca com consulta gratuita às Normas Técnicas da ABNT;</p>
 						<p>Oferta de "degustação" de associatividade a uma entidade de classe, subsidiada;</p>
 						<p>Luta pela revisão e redução dos valores de taxas e anuidade com base nas ART's registradas;</p>
-						<p>Reinaguração do Centro Cultural <i>"JOSÉ CHACON DE ASSIS"</i>.</p>
+						<p>Reinauguração do Centro Cultural <i>"JOSÉ CHACON DE ASSIS"</i>.</p>
 	
 					</div>
 				</div>

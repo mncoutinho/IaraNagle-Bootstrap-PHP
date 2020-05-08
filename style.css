@@ -922,10 +922,34 @@ body.app_version .header_style_01.fixed-menu{
     background-image: url("./apoiadores/parallax_05.png") no-repeat;
     height: 580px;
     width: 70%; 
+}
+.card-title h3{
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "univia-b";
+    font-style: italic;
+}
+.card-footer h3{
+    color:#fe0d78;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "univia-b";
+    font-style: italic;
+}
+.card-footer p{
+    color:#ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "univia-b";  
+}
+.card-text{
+    color:#ffffff;
+    font-size: 24px;
 
 }
 
-.card-title h3{
+.card-title1 h3{
     color:#ffffff;
     font-size: 18px;
     font-weight: bold;
@@ -933,14 +957,14 @@ body.app_version .header_style_01.fixed-menu{
     font-style: italic;
 
 }
-.card-footer h3{
+.card-footer1 h3{
     color:#fe0d78;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: bold;
     font-family: "univia-b";
     font-style: italic;
 }
-.card-footer p{
+.card-footer1 p{
     color:#ffffff;
     font-size: 16px;
     font-weight: bold;
@@ -949,9 +973,10 @@ body.app_version .header_style_01.fixed-menu{
 }
 
 
-.card-text{
+.card-text1{
     color:#ffffff;
     font-size: 20px;
+    font-family: univia-l;
 
 }
 
@@ -1129,10 +1154,8 @@ body.app_version .header_style_01.fixed-menu{
     width: 100%;
     background:#072439;
 }
-#propostaTitulo{
+.propostaTitulo{
     color: #dc137b;
-    font-size: 48px;
-    font-weight: bolder;
 }
 #boxCompromisso{
     background:#023b64;
@@ -1151,8 +1174,9 @@ body.app_version .header_style_01.fixed-menu{
     margin: 20px 10%;
     width: 80%;
 }
-#TituloPropostas{
+#titulo{
     font-size: 48px;
+    font-family: univia-b;
 }
 #gestao{
     background-color: #dc137b;
@@ -1234,12 +1258,12 @@ padding: 35% 0;
 }
 #compromissoTitulo{
     color:#dc137b;
-    font-size:15px ;
-    font-weight: bolder;
+    font-size:20px ;
+    font-family: univia-b;
 }
 #compromissoTexto{
     color:white;
-    font-size: 15px;
+    font-size: 19px;
     width: 80%;
     margin-left: 10%;
 }
@@ -1889,6 +1913,31 @@ hr {
     .card-footer p{
 
         font-size: 15px;
+
+        
+    }
+    .card-text{
+        font-size:18px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .card-apoiadores{
+        height:700px ;
+    }
+    .card-title1 h3{
+
+        font-size: 16px;
+  ;
+    
+    }
+    .card-footer1 h3{
+
+        font-size: 16px;
+ 
+    }
+    .card-footer1 p{
+
+        font-size: 13px;
 
         
     }
