@@ -21,12 +21,19 @@
 	<script type="text/javascript">
 	$(function () {
   $('[data-toggle="tooltip"]').tooltip()
+});
+	</script>
+	<!--<script type="text/javascript">$(document).ready(function(){$('#ExemploModalCentralizado').modal('show');});</script>
+-->
+<script type="text/javascript">
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
 })
 	</script>
     <!-- Site Icons -->
     <link rel="shortcut icon" href="images/modal/Slide1.jpg" type="image/x-icon" />
     <!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     
     <!-- Site CSS -->
@@ -45,7 +52,7 @@
 <body class="app_version"  data-spy="scroll" data-target="#navbarApp" data-offset="98">
     <header class="header header_style_01">
         <nav class="fixed-top navbar header-nav navbar-expand-lg">
-            <div class="container">
+            <div class="container-fluid">
 				<a class="navbar-brand" href="index.html">
 					<img src="images/logos/logo-app1.png" alt="image"></a>
 				<button class="navbar-toggler" 
@@ -65,8 +72,25 @@
                         <li><a class="nav-link" href="#perfil">Perfil</a></li>						
 						<li><a class="nav-link" href="#propostas">Propostas</a></li>
 						<li><a class="nav-link" href="#apoiadores">Parceiros</a></li>
-						<li><a class="nav-link" href="#videos">Vídeos</a></li>
 						<li><a class="nav-link" href="#contact">Declare Seu Apoio</a></li>
+						<li><a
+							class="nav-link" 
+							id="botaonav"
+							data-toggle="modal"
+							data-target="#roteiro">Escolha Seu Local de Votação</a>		
+						</li>
+						<li>
+							<div class=""
+							data-toggle="tooltip" 
+							data-placement="bottom"
+							title="Clique aqui e coloque Nosso filtro no seu Perfil do Facebook">	
+								<a href="https://www.facebook.com/profilepicframes/?selected_overlay_id=201430544615013"
+								class="nav-link ml-xl-1 ml-lg-1" 
+								id="botaonav"
+								target="_blank"
+								>Tema no facebook</a>	
+							</div>
+						</li>
                     </ul>
                 </div>
             </div>
@@ -80,15 +104,9 @@
 					<a href="#perfil" 
 					class="hvr-bounce-to-right cd-hero__btn" >Conheça Iara Nagle</a>	
 					<br>	
-					<div class="info-box"
-						data-toggle="tooltip" 
-						data-placement="bottom"
-						title="Clique aqui e coloque Nosso filtro no seu Perfil do Facebook">	
-					<a href="https://www.facebook.com/profilepicframes/?selected_overlay_id=201430544615013"
-					class="hvr-bounce-to-right cd-hero__btn" 
-					target="_blank"
-					>Filtro do facebook</a>	
-					</div>	
+					
+		
+					
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<img src="images/iara-top.png" width="100%">
@@ -123,18 +141,15 @@
 		</div>
 		<div id="propostas">
 			<div class="container mx-auto" >
-				<h1 class="text-center pt-5 px-auto" id="propostaTitulo"><b>Propostas</b></h1>
-				<div class="text-center">
-					<small id="avisoProposta">Passe o mouse sobre os pontos para ler mais</small>
-				</div>
+				<h1 class="text-center py-5 px-auto" id="propostaTitulo"><b>Propostas</b></h1>
 				<div class="row my-auto border">
 					<div class="col-4" id="gestao">
 						<h1 class="text-center" id="TituloPropostas"><b>Gestão Eficaz</b></h1>
 					</div>
 					<div class="col-8 py-2 " id="gestaoTexto">
-						<div class="info-box"
+						<div class="info-box" 
 						data-toggle="tooltip" 
-						data-placement="bottom"
+						data-placement="bottom" 
 						title="Receitas/despesas publicadas no portal; ouvidoria que ouve o profissional e resolve.">
 							<p>Administração transparente e ouvidoria atuante e independente;</p>
 						</div>
@@ -252,8 +267,7 @@
 						<p>Implantação do programa "Anuidade Zero", através de convênios de fidelização junto às empresas;</p>
 						</div>
 						<div class="info-box" 
-						data-toggle="tooltip"
-						data-container="#tooltip" 
+						data-toggle="tooltip" 
 						data-placement="bottom" 
 						title="Plano de saúde médico e dentário, creches, clubes, cursos, viagens, etc.">
 							<p>Realização de convênios com descontos em compras e serviços;</p>
@@ -275,7 +289,7 @@
 				</div>
 			</div>
 		  </div>
-	
+	</section> <!-- .cd-hero -->
 	<div id="apoiadores" class="section wb section-parceiros">
         <div class="">
             <div class="section-title text-center">
@@ -289,20 +303,12 @@
 					<li data-target="#carouselApoiadores" data-slide-to="2"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="3"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="4"></li>
-					<li data-target="#carouselApoiadores" data-slide-to="5"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<div id="card-apoiadores text-center">
 							<div class="card-image text-center mb-5">
-								<div class="info-box" 
-									data-toggle="tooltip" 
-									data-placement="bottom" 
-									title="Clique para conhecer mais">
-									<!--<a data-toggle="modal" data-target="#brunodebonis"> -->
-										<img src="apoiadores/Bruno.png" class="img-fluid img-rounded">	
-									<!-- </a> -->
-								</div>
+								<img src="apoiadores/Bruno.png" class="img-fluid img-rounded">	
 							</div>
 							<div class="card-title clearfix">
 							<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
@@ -320,14 +326,7 @@
 					<div class="carousel-item text-center">
 						<div id="card-apoiadores text-center">
 							<div class="card-image text-center mb-5">
-								<div class="info-box" 
-									data-toggle="tooltip" 
-									data-placement="bottom" 
-									title="Clique para conhecer mais">
-									<a data-toggle="modal" data-target="#suzanasattamini">
-										<img src="apoiadores/suzanaSattamini.png" class="img-fluid img-rounded">	
-									</a>
-								</div>
+								<img src="apoiadores/suzanaSattamini.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
 								<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
@@ -345,14 +344,7 @@
 					<div class="carousel-item">
 						<div id="card-apoiadores text-center">
 							<div class="card-image text-center mb-5">
-								<div class="info-box" 
-									data-toggle="tooltip" 
-									data-placement="bottom" 
-									title="Clique para conhecer mais">
-									<a data-toggle="modal" data-target="#antoniobatista">
-										<img src="apoiadores/AntonioBatista.png">
-									</a>
-								</div>
+								<img src="apoiadores/AntonioBatista.png">
 							</div>
 							<div class="card-title">
 								<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
@@ -371,14 +363,7 @@
 					<div class="carousel-item">
 						<div id="card-apoiadores text-center">
 							<div class="card-image text-center mb-5">
-								<div class="info-box" 
-									data-toggle="tooltip" 
-									data-placement="bottom" 
-									title="Clique para conhecer mais">
-									<a data-toggle="modal" data-target="#edisonnogueira">
-										<img src="apoiadores/EdisonNogueira.png" class="img-fluid img-rounded">
-									</a>
-								</div>
+								<img src="apoiadores/EdisonNogueira.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
 							<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
@@ -393,6 +378,24 @@
 							</div>
 						</div>
 					</div>
+					<div class="carousel-item">
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center mb-5">
+								<img src="apoiadores/AlvaroSenna.png" class="img-fluid img-rounded">
+							</div>
+							<div class="card-title">
+							<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
+							</div>
+							<div class="card-text">
+								<p class="text-center"><b>"A plataforma apresentada pela Iara me leva a crer , que sob sua administração o CREA-RJ  será dinâmico , moderno e transparente.</b> Por tudo isso tem meu apoio."</p>
+							</div>
+							<div class="card-footer">
+								<h3 class="text-center">Alvaro Senna</h3>
+								<p class="text-center">Engenheiro</p>
+							</div>
+						</div>
+					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselApoiadores" role="button" data-slide="prev">
 					
@@ -403,35 +406,62 @@
 			</div>
 		</div>
 	</div>
-</section> <!-- .cd-hero -->
-	<div id="#videos">
-		<div class="row">
-			<div class="col mx-5">
-
-			</div>
-			<div class="col mx-5">
-
-			</div>
-			<div class="col mx-5">
-
-			</div>
-		</div>
-
-	</div>
-		
-
     <div id="contact" class="section lb">
         <div class="container py-5">
-            <div class="section-title text-center ">
-                <h3>Declare Seu Apoio</h3>
-				<div class="info-box" 
-				data-toggle="tooltip" 
-				data-placement="bottom" 
-				title="Utilize este espaço para declarar seu apoio para Iara Nagle">
-				<img src="images/SELO ROSA.png" alt="" class="img-fluid img-rounded">
-				</div>
-            </div><!-- end title -->
 
+			<div class="row">
+				<div class="col-4">
+					<div class="info-box" 
+					data-toggle="tooltip" 
+					data-placement="bottom" 
+					title="Utilize este espaço para declarar seu apoio para Iara Nagle">
+						<img src="images/SELO ROSA.png" class="img-fluid img-rounded">
+					</div>
+				</div>
+				<div class="col-8">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<?php
+							#PHP 7
+							$query = 'SELECT * FROM `apoiadores` ';
+							require_once("../admin/conexao.php");
+							$select = mysqli_query($connect, $query);
+							$i = 0;
+							while($lista = mysqli_fetch_array($select)){
+								if(isset($lista['mensagem']) && strlen($lista['mensagem']) < 500 && isset($lista['nome']) && $lista['nome'] !== '' ){
+											if($i == 0){
+													echo '<div class="carousel-item active">';
+													$i++;
+												}
+												else {
+													echo '<div class="carousel-item">';
+													$i++;
+												}
+											echo '<div class="clearfix">
+													<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+													<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
+													</div>';
+											if($lista['mensagem'] !== ''){
+												echo '<div class="card-text">';
+												echo '<p class="text-center"><b>',$lista['mensagem'],'</b></p>';
+												echo '</div>';
+											}
+											echo '<div class="card-footer">';
+											echo '<h3 class="text-center">',$lista['nome'],'</h3>';
+											echo '<p class="text-center">',$lista['cargo'],'</p></div></div>';
+										}
+
+									}       
+							mysqli_close($connect);?>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"></a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"></a>
+					</div>
+				</div>
+			</div>
+            <div class="section-title text-center pt-5">
+                <h3>Declare Seu Apoio</h3>
+            </div><!-- end title -->
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact_form">
@@ -465,11 +495,11 @@
 	<footer class="footer d-inline-block mt-auto py-3 text-center">
 		<h1 class="text-center text-light"> Nossas Redes Sociais</h1>
 		<div class="row px-5 mx-5 my-5">
-		  <a class="col"  href="https://www.facebook.com/iaranagle"><i class="fab fa-facebook"></i></a>
-		  <a class="col"  href="https://twitter.com/iaranagle"><i class="fab fa-twitter"></i></a>
-		  <a class="col"  href="https://www.instagram.com/iaranagle1/"><i class="fab fa-instagram"></i></a>
-		  <a class="col"  href="https://www.linkedin.com/in/iaranagle/"><i class="fab fa-linkedin-in"></i></a>
-		  <!--<a class="col"  href="#"><i class="fab fa-youtube"></i></a>-->
+		<a class="col"  href="https://www.facebook.com/iaranagle" target="_blank"><i class="fab fa-facebook"></i></a>
+		  <a class="col"  href="https://twitter.com/iaranagle" target="_blank"><i class="fab fa-twitter"></i></a>
+		  <a class="col"  href="https://www.instagram.com/iaranagle1/" target="_blank"><i class="fab fa-instagram"></i></a>
+		  <a class="col"  href="https://www.linkedin.com/in/iaranagle/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+		  <a class="col"  href="https://www.youtube.com/channel/UC5RIyLuDG18H0xhZ7AIffBQ" target="_blank"><i class="fab fa-youtube"></i></a>
 		</div>    
 	  </footer>
 
@@ -477,32 +507,102 @@
 		<p>Copyright © 2020 - Todos os direitos reservados - Águia ©</p>
 	</div>
 
-	
-	  
-	  <!-- Modal -->
-	  <div class="modal fade" id="brunodebonis" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			  <img src="apoiadores/old-Bruno.png">
+	<div class="modal fade" 
+	id="roteiro" 
+	tabindex="-1" role="dialog" 
+	aria-labelledby="TituloModalCentralizado" 
+	aria-hidden="true">
+		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title text-center" id="TituloModalCentralizado">DATA LIMITE: 15 de Julho de 2020</h1>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<div class="container mx-2">
+						<h5><b>ROTEIRO PARA ESCOLHA DE LOCAL DE VOTAÇÃO</b></h5>
+						<p class="my-0">1 - Entre no site do CREA/RJ: <a style="color:blue"href="https://novoportal.crea-rj.org.br" target="_blank" >https://novoportal.crea-rj.org.br</a></p>
+						<p id="marcatexto" class="my-auto"><b>(Utilize o Navegador MOZILLA FIREFOX)</b></p>
+						<small style="color:red">link para baixar no rodapé</small>
+						<div class="row my-2">
+							<div class="col">
+								<p class="d-inline">2 - Clique em <b>SERVIÇOS:</b></p>
+								<img class="d-inline" src="./images/modal/Slide2.jpg">
+							</div>
+						</div>
+						<div class="row my-2">
+							<div class="col">
+								<p>3 - Escolha <b>ÁREA RESTRITA DO PROFISSIONAL:</b></p>
+							</div>
+							<div class="col-lg-6 col-md-12">
+								<img src="./images/modal/Slide3.jpg">
+							</div>
+						</div>
+						<div class="row  mt-2 mb-auto">
+							<div class="col">
+								<p>4 - Na página seguinte, insira seus dados de CPF e senha, assinale que não é um "Robô", e confirme:</p>
+							</div>
+						</div>
+						<div class="row ">
+							<div class="col mt-1">
+							<img src="./images/modal/Slide4.jpg">
+							</div>
+							<div class="col pl-auto ml-auto mt-1">
+								<img src="./images/modal/Slide5.jpg">
+							</div>
+						</div>
+						<div class="row  my-auto">
+							<div class="col">
+								<small><b>OBS: Caso não tenha cadastro ou tenha esquecio a sua senha, siga os passos abaixo no (**) e retorne ao ítem 4</b></small>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<p>5 - Na <b>página do Profissional,</b> clique em <b>"AINDA NÃO TEM LOCAL DE VOTAÇÃO"</b> ou <b>"ALTERAR LOCAL DE VOTAÇÃO"</b>, e <b>escolha</b> seu local de votação</p>
+							</div>
+							<div class="col align-self-center">
+								<img src="./images/modal/Slide7.jpg">
+							</div>
+							<div class="col-12"style="height:25px;" >
+							<p id="marcatexto2">Confirme, faça o print da tela e guarde como garantia.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col my-auto">
+								<small><b>(**) &nbsp;&nbsp; Caso tenha esquecido a senha, clique em "ESQUECI MINHA SENHA" e siga a orientação para trocá-la</b></small>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<img src="./images/modal/Slide8.jpg">
+							</div>
+							<div class="col-8 align-self-end">
+								<small class="text-right">REGISTRO NO CREA-RJ:verso da carteira, ao lado da asinatura do Presidente.</small>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<small><b>Após o cadastro da nova senha, retorne à área restrita e siga os passos 4 e 5 deste roteiro.</b></small>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+					<button type="button" 
+					class="btn btn-primary">
+						<a href="https://novoportal.crea-rj.org.br" style="color: white"  target="_blank">
+							Acessar Portal CREA-RJ
+							<button type="button" class="btn btn-primary">
+							<a href="https://www.mozilla.org/pt-BR/firefox/download/thanks/" style="color: white" target="_blank">Baixar Firefox</a>
+							</button>
+						</a>
+					</button>
+				</div>
+			</div>
 		</div>
-	  </div>
-	  <div class="modal fade" id="suzanasattamini" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			  <img class="img-fluid" src="./material/suzanasattamini.jpeg">
-		</div>
-	  </div>
-	  <div class="modal fade" id="antoniobatista" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<img class="img-fluid" src="./material/antoniobatista.jpg">
-		</div>
-	  </div>
-	  <div class="modal fade" id="edisonnogueira" tabindex="-1" role="dialog" aria-hidden="true">
-		<div class="modal-dialog" role="document">
-			<img class="img-fluid" src="./material/EdisonNogueira.jpg">
-		  </div>
-		</div>
-	  </div>
-	  
-
-
+	</div> 
 </body>
 </html>

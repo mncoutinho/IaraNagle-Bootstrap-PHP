@@ -25,11 +25,11 @@ VALUES (NULL, '$nome', '$email', '$mensagem','$cargo', '$telefone')";
 $insert = mysqli_query($connect,$query);
 if($insert){
 	  echo"<script language='javascript' type='text/javascript'>
-	  alert('Usuário cadastrado com sucesso!');window.location.
+	  alert('Apoio Salvo com Sucesso');window.location.
 	  href='../index.php'</script>";
 }else{
 	  echo"<script language='javascript' type='text/javascript'>
-	  alert('Não foi possível cadastrar esse usuário');window.location
+	  alert('Não foi possível guardar este apoio! Tente Novamente.');window.location
 	  .href='../index.php'</script>";
 	};
 	

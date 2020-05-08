@@ -17,9 +17,14 @@
     <meta name="description" content="">
     <meta name="author" content="aguia">
 	   <!-- ALL JS FILES -->
-	   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+	$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+	</script>
 	<!--<script type="text/javascript">$(document).ready(function(){$('#ExemploModalCentralizado').modal('show');});</script>
 -->
 <script type="text/javascript">
@@ -82,12 +87,22 @@
 					<img src="images/iara-txt.png" width="100%"><br>
 					<a href="#perfil" 
 					class="hvr-bounce-to-right cd-hero__btn" >Conheça Iara Nagle</a>	
-				<!--	<br>		
+					<br>	
+					<div class="info-box"
+						data-toggle="tooltip" 
+						data-placement="bottom"
+						title="Clique aqui e coloque Nosso filtro no seu Perfil do Facebook">	
+						<a href="https://www.facebook.com/profilepicframes/?selected_overlay_id=201430544615013"
+						class="hvr-bounce-to-right cd-hero__btn" 
+						target="_blank"
+						>Tema no facebook</a>	
+					</div>
+					<br>		
 					<a
 					class="hvr-bounce-to-right cd-hero__btn" 
 					style="color: black" 
 					data-toggle="modal"
-					data-target="#ExemploModalCentralizado">Conheça Como Votar</a>			-->
+					data-target="#roteiro">Escolha Seu Local de Votação</a>		
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<img src="images/iara-top.png" width="100%">
@@ -283,6 +298,7 @@
 					<li data-target="#carouselApoiadores" data-slide-to="1"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="2"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="3"></li>
+					<li data-target="#carouselApoiadores" data-slide-to="4"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
@@ -358,6 +374,24 @@
 							</div>
 						</div>
 					</div>
+					<div class="carousel-item">
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center mb-5">
+								<img src="apoiadores/AlvaroSenna.png" class="img-fluid img-rounded">
+							</div>
+							<div class="card-title">
+							<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
+							</div>
+							<div class="card-text">
+								<p class="text-center"><b>"A plataforma apresentada pela Iara me leva a crer , que sob sua administração o CREA-RJ  será dinâmico , moderno e transparente.</b> Por tudo isso tem meu apoio."</p>
+							</div>
+							<div class="card-footer">
+								<h3 class="text-center">Alvaro Senna</h3>
+								<p class="text-center">Engenheiro</p>
+							</div>
+						</div>
+					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselApoiadores" role="button" data-slide="prev">
 					
@@ -413,11 +447,11 @@
 	<footer class="footer d-inline-block mt-auto py-3 text-center">
 		<h1 class="text-center text-light"> Nossas Redes Sociais</h1>
 		<div class="row px-5 mx-5 my-5">
-		  <a class="col"  href="https://www.facebook.com/iaranagle"><i class="fab fa-facebook"></i></a>
-		  <a class="col"  href="https://twitter.com/iaranagle"><i class="fab fa-twitter"></i></a>
-		  <a class="col"  href="https://www.instagram.com/iaranagle1/"><i class="fab fa-instagram"></i></a>
-		  <a class="col"  href="https://www.linkedin.com/in/iaranagle/"><i class="fab fa-linkedin-in"></i></a>
-		  <!--<a class="col"  href="#"><i class="fab fa-youtube"></i></a>-->
+		<a class="col"  href="https://www.facebook.com/iaranagle" target="_blank"><i class="fab fa-facebook"></i></a>
+		  <a class="col"  href="https://twitter.com/iaranagle" target="_blank"><i class="fab fa-twitter"></i></a>
+		  <a class="col"  href="https://www.instagram.com/iaranagle1/" target="_blank"><i class="fab fa-instagram"></i></a>
+		  <a class="col"  href="https://www.linkedin.com/in/iaranagle/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+		  <a class="col"  href="https://www.youtube.com/channel/UC5RIyLuDG18H0xhZ7AIffBQ" target="_blank"><i class="fab fa-youtube"></i></a>
 		</div>    
 	  </footer>
 
@@ -425,17 +459,15 @@
 		<p>Copyright © 2020 - Todos os direitos reservados - Águia ©</p>
 	</div>
 
-    <a href="#home" data-scroll class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-	<!-- 
 	<div class="modal fade" 
-	id="ExemploModalCentralizado" 
+	id="roteiro" 
 	tabindex="-1" role="dialog" 
 	aria-labelledby="TituloModalCentralizado" 
 	aria-hidden="true">
 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title text-center" id="TituloModalCentralizado"></h5>
+					<h1 class="modal-title text-center" id="TituloModalCentralizado">DATA LIMITE: 15 de Julho de 2020</h1>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
 					<span aria-hidden="true">&times;</span>
 					</button>
@@ -443,8 +475,8 @@
 				<div class="modal-body">
 					<div class="container mx-2">
 						<h5><b>ROTEIRO PARA ESCOLHA DE LOCAL DE VOTAÇÃO</b></h5>
-						<p>1 - Entre no site do CREA/RJ: <a style="color:blue"href="https://novoportal.crea-rj.org.br" target="_blank" >https://novoportal.crea-rj.org.br</a></p>
-						<p id="marcatexto"><b>(Utilize o Navegador MOZILLA FIREFOX)</b></p>
+						<p class="my-0">1 - Entre no site do CREA/RJ: <a style="color:blue"href="https://novoportal.crea-rj.org.br" target="_blank" >https://novoportal.crea-rj.org.br</a></p>
+						<p id="marcatexto" class="my-auto"><b>(Utilize o Navegador MOZILLA FIREFOX)</b></p>
 						<small style="color:red">link para baixar no rodapé</small>
 						<div class="row my-2">
 							<div class="col">
@@ -460,37 +492,37 @@
 								<img src="./images/modal/Slide3.jpg">
 							</div>
 						</div>
-						<div class="row  my-2">
+						<div class="row  mt-2 mb-auto">
 							<div class="col">
 								<p>4 - Na página seguinte, insira seus dados de CPF e senha, assinale que não é um "Robô", e confirme:</p>
 							</div>
 						</div>
 						<div class="row ">
-							<div class="col mt-2">
+							<div class="col mt-1">
 							<img src="./images/modal/Slide4.jpg">
 							</div>
-							<div class="col pl-auto ml-auto mt-2">
+							<div class="col pl-auto ml-auto mt-1">
 								<img src="./images/modal/Slide5.jpg">
 							</div>
 						</div>
-						<div class="row  my-2">
+						<div class="row  my-auto">
 							<div class="col">
 								<small><b>OBS: Caso não tenha cadastro ou tenha esquecio a sua senha, siga os passos abaixo no (**) e retorne ao ítem 4</b></small>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-12">
-								<p>Na <b>página do Profissional,</b> clique em <b>"AINDA NÃO TEM LOCAL DE VOTAÇÃO"</b> ou <b>"ALTERAR LOCAL DE VOTAÇÃO"</b>, e <b>escolha</b> seu local de votação</p>
+								<p>5 - Na <b>página do Profissional,</b> clique em <b>"AINDA NÃO TEM LOCAL DE VOTAÇÃO"</b> ou <b>"ALTERAR LOCAL DE VOTAÇÃO"</b>, e <b>escolha</b> seu local de votação</p>
 							</div>
 							<div class="col align-self-center">
 								<img src="./images/modal/Slide7.jpg">
 							</div>
-							<div class="col-12 my-2">
+							<div class="col-12"style="height:25px;" >
 							<p id="marcatexto2">Confirme, faça o print da tela e guarde como garantia.</p>
 							</div>
 						</div>
 						<div class="row">
-							<div class="col">
+							<div class="col my-auto">
 								<small><b>(**) &nbsp;&nbsp; Caso tenha esquecido a senha, clique em "ESQUECI MINHA SENHA" e siga a orientação para trocá-la</b></small>
 							</div>
 						</div>
@@ -512,7 +544,7 @@
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
 					<button type="button" 
-" 					class="btn btn-primary">
+					class="btn btn-primary">
 						<a href="https://novoportal.crea-rj.org.br" style="color: white"  target="_blank">
 							Acessar Portal CREA-RJ
 							<button type="button" class="btn btn-primary">
@@ -523,9 +555,6 @@
 				</div>
 			</div>
 		</div>
-	</div> -->
-
-
-
+	</div> 
 </body>
 </html>
