@@ -54,7 +54,7 @@
 <body class="app_version"  data-spy="scroll" data-target="#navbarApp" data-offset="98">
     <header class="header header_style_01">
         <nav class="fixed-top navbar header-nav navbar-expand-lg">
-            <div class="container">
+            <div class="container-fluid">
 				<a class="navbar-brand" href="index.html">
 					<img src="images/logos/logo-app1.png" alt="image"></a>
 				<button class="navbar-toggler" 
@@ -70,11 +70,35 @@
 				</button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarApp">
                     <ul class="navbar-nav">
-                        <li><a class="nav-link active" href="#home">Home</a></li>
-                        <li><a class="nav-link" href="#perfil">Perfil</a></li>						
-						<li><a class="nav-link" href="#propostas">Propostas</a></li>
-						<li><a class="nav-link" href="#apoiadores">Parceiros</a></li>
-						<li><a class="nav-link" href="#contact">Declare Seu Apoio</a></li>
+                        <li><a class="nav-link active" href="#home"><b>Home</b></a></li>
+                        <li><a class="nav-link" href="#perfil"><b>Perfil</b></a></li>						
+						<li><a class="nav-link" href="#propostas"><b>Propostas</b></a></li>
+						<li><a class="nav-link" href="#apoiadores"><b>Parceiros</b></a></li>
+						<li><a class="nav-link" href="#contact"><b>Declare Seu Apoio</b></a></li>
+						<li>
+						<div class=""
+							data-toggle="tooltip" 
+							data-placement="bottom"
+							title="Clique aqui">
+							<a
+							class="nav-link" 
+							id="botaonav"
+							data-toggle="modal"
+							data-target="#roteiro">Escolha Seu Local de Votação</a>
+						</div>		
+						</li>
+						<li>
+							<div class=""
+							data-toggle="tooltip" 
+							data-placement="bottom"
+							title="Clique aqui e coloque Nosso filtro no seu Perfil do Facebook">	
+								<a href="https://www.facebook.com/profilepicframes/?selected_overlay_id=201430544615013"
+								class="nav-link ml-xl-1 ml-lg-1" 
+								id="botaonav"
+								target="_blank"
+								>Tema no facebook</a>	
+							</div>
+						</li>
                     </ul>
                 </div>
             </div>
@@ -88,21 +112,9 @@
 					<a href="#perfil" 
 					class="hvr-bounce-to-right cd-hero__btn" >Conheça Iara Nagle</a>	
 					<br>	
-					<div class="info-box"
-						data-toggle="tooltip" 
-						data-placement="bottom"
-						title="Clique aqui e coloque Nosso filtro no seu Perfil do Facebook">	
-						<a href="https://www.facebook.com/profilepicframes/?selected_overlay_id=201430544615013"
-						class="hvr-bounce-to-right cd-hero__btn" 
-						target="_blank"
-						>Tema no facebook</a>	
-					</div>
-					<br>		
-					<a
-					class="hvr-bounce-to-right cd-hero__btn" 
-					style="color: black" 
-					data-toggle="modal"
-					data-target="#roteiro">Escolha Seu Local de Votação</a>		
+					
+		
+					
 				</div>
 				<div class="col-lg-6 col-md-6">
 					<img src="images/iara-top.png" width="100%">
@@ -112,17 +124,20 @@
 		</div>				
 		<div id="perfil" class="section wb">
 			<div class="container-fluid">
+				<div class="text-center">
+					<h3 id="titulo" class="py-3 text-center">Perfil</h3>
+				</div>
 				<div class="row align-items-center">
 					<div class="col-lg-4 col-md-6 text-sobre"> <!-- end title -->
+							
 						<div class="about-right">
-						  <h1 class="title-uni py-3  text-center">Perfil</h1>
 						  <p class="text-justify">
 							<b>Sou Engenheira Civil</b> (UFJF) e especialista em Engenharia de Produção (UFRJ). Atuo há mais de 37 anos como Perita Judicial e possuo ampla experiência em consultoria patrimonial, ambiental e de negócios. Sou docente desde 1988 e me sinto honrada por ter auxiliado na formação de centenas de profissionais. Sou Conselheira vitalícia (licenciada) do Clube de Engenharia e ex-diretora do IEL-IBAPE-RJ. Atualmente, sou Presidente (licenciada) da ABEA-RJ.
 						  </p>
 						  <p class="text-justify">
 							  Sempre atuante no Sistema CONFEA/CREA e MÚTUA, onde fui Conselheira Regional e Federal e Diretora da Caixa-RJ, em prol do <b>desenvolvimento da Engenharia</b>, estou preparada para ser a <b>primeira Engenheira Presidente do CREA-RJ</b> e contribuir com toda a experiência e conhecimento adquiridos ao longo da minha trajetória profissional.
 						  </p>
-						  <p class="text-justify"> O cerne da campanha são as minhas propostas, elaboradas para proporcionar uma <b>Gestão Transparente e Eficaz</b>, promover a <b>Valorização Profissional</b>, ao visar maior empregabilidade, implantar uma <b>Fiscalização Efetiva e Consciente</b>, que proteja o profissional e a vida e criar <b>Benefícios</b> Sociais, que possam apoiar o profissional. Confira abaixo! </p>
+						  <p class="text-justify"> O cerne da campanha são as minhas propostas, elaboradas para proporcionar uma <b>Gestão Transparente e Eficaz</b>, promover a <b>Valorização Profissional</b>, ao visar maior empregabilidade, implantar uma <b>Fiscalização Efetiva e Consciente</b>, que proteja o Profissional a Sociedade e a Vida e criar <b>Benefícios</b>, que possam apoiar o profissional. Confira abaixo! </p>
 						  <h2 class="uni-p title-uni text-center">Na Eleição CREA-RJ 2020 VOTE IARA NAGLE 49</h4>
 						  <img src="images/SELO ROSA.png" alt="" class="img-fluid img-rounded">
 						</div>					
@@ -137,7 +152,7 @@
 		</div>
 		<div id="propostas">
 			<div class="container mx-auto" >
-				<h1 class="text-center py-5 px-auto" id="propostaTitulo"><b>Propostas</b></h1>
+				<h1 class="text-center py-5 px-auto propostaTitulo" id="titulo"><b>Propostas</b></h1>
 				<div class="row my-auto border">
 					<div class="col-4" id="gestao">
 						<h1 class="text-center" id="TituloPropostas"><b>Gestão Eficaz</b></h1>
@@ -266,7 +281,7 @@
 						data-toggle="tooltip" 
 						data-placement="bottom" 
 						title="Plano de saúde médico e dentário, creches, clubes, cursos, viagens, etc.">
-							<p>Realização de convênios com descontos em compras e serviços;</p>
+						<p>Realização de convênios com descontos em compras e serviços;</p>
 						</div>
 						<p>Instalação de biblioteca com consulta gratuita às Normas Técnicas da ABNT;</p>
 						<p>Oferta de "degustação" de associatividade a uma entidade de classe, subsidiada;</p>
@@ -277,9 +292,9 @@
 				</div>
 				<div class="row mt-3 border" id="compromisso">
 					<div class="col">
-						<h1 id="compromissoTitulo">Compromisso:</h1>
+						<h1 id="compromissoTitulo" class="mt-3"><b>Compromisso:</b></h1>
 						<div id="compromissoTexto">
-							<strong class="text-center">Tudo o que não for atribuição exclusiva do CREA-RJ será executado em conjunto com as Entidade de Classe e de Ensino, com assento no plenário</strong>
+							<strong class="text-center">O que não for atribuição específica do CREA-RJ será executado em conjunto com as Entidades de Classe e de Ensino.</strong>
 						</div>
 					</div>
 				</div>
@@ -289,10 +304,11 @@
 	<div id="apoiadores" class="section wb section-parceiros">
         <div class="">
             <div class="section-title text-center">
-              <h3 class="text-white title-uni">Parceiros </h3>
+			  <h3 id="titulo"
+			  class="text-white title-uni">Parceiros</h3>
 			  <hr>
 			</div><!-- end title -->
-			<div id="carouselApoiadores" class="carousel slide" data-ride="carousel">
+			<div id="carouselApoiadores" class="carousel slide" data-ride="carousel" data-interval="10000">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselApoiadores" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="1"></li>
@@ -301,7 +317,7 @@
 					<li data-target="#carouselApoiadores" data-slide-to="4"></li>
 				</ol>
 				<div class="carousel-inner">
-					<div class="carousel-item active">
+					<div class="carousel-item active" data>
 						<div id="card-apoiadores text-center">
 							<div class="card-image text-center mb-5">
 								<img src="apoiadores/Bruno.png" class="img-fluid img-rounded">	
@@ -352,7 +368,7 @@
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">ANTONIO BATISTA</h3>
-								<p class="text-center">Engenheiro</p>
+								<p class="text-center">Engenheiro Civil</p>
 							</div>
 						</div>
 					</div>
@@ -370,7 +386,7 @@
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">EDISON NOGUEIRA</h3>
-								<p class="text-center">Engenheiro Civil</p>
+								<p class="text-center">Engenheiro Civil e de Segurança do Trabalho</p>
 							</div>
 						</div>
 					</div>
@@ -388,7 +404,7 @@
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">Alvaro Senna</h3>
-								<p class="text-center">Engenheiro</p>
+								<p class="text-center">Engenheiro Civil</p>
 							</div>
 						</div>
 					</div>
@@ -404,16 +420,62 @@
 	</div>
     <div id="contact" class="section lb">
         <div class="container py-5">
-            <div class="section-title text-center ">
-                <h3>Declare Seu Apoio</h3>
-				<div class="info-box" 
-				data-toggle="tooltip" 
-				data-placement="bottom" 
-				title="Utilize este espaço para declarar seu apoio para Iara Nagle">
-				<img src="images/SELO ROSA.png" alt="" class="img-fluid img-rounded">
-				</div>
+		<div class="section-title text-center pt-5">
+                <h3>Porque voto em Iara?</h3>
             </div><!-- end title -->
+			<div class="row">
+				<div class="col-4">
+					<div class="info-box" 
+					data-toggle="tooltip" 
+					data-placement="bottom" 
+					title="Utilize este espaço para declarar seu apoio para Iara Nagle">
+						<img src="images/SELO ROSA.png" class="img-fluid img-rounded">
+					</div>
+				</div>
+				<div class="col-8">
+					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner">
+							<?php
+							#PHP 7
+							$query = 'SELECT * FROM `apoiadores` ';
+							require_once("../admin/conexao.php");
+							$select = mysqli_query($connect, $query);
+							$i = 0;
+							while($lista = mysqli_fetch_array($select)){
+								if(isset($lista['mensagem']) && strlen($lista['mensagem']) < 500 && isset($lista['nome']) && $lista['nome'] !== '' ){
+											if($i == 0){
+													echo '<div class="carousel-item active">';
+													$i++;
+												}
+												else {
+													echo '<div class="carousel-item">';
+													$i++;
+												}
+											echo '<div class="clearfix">
+													<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+													<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
+													</div>';
+											if($lista['mensagem'] !== ''){
+												echo '<div class="card-text1">';
+												echo '<p class="text-center"><b>',$lista['mensagem'],'</b></p>';
+												echo '</div>';
+											}
+											echo '<div class="card-footer1">';
+											echo '<h3 class="text-center">',$lista['nome'],'</h3>';
+											echo '<p class="text-center">',$lista['cargo'],'</p></div></div>';
+										}
 
+									}       
+							mysqli_close($connect);?>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"></a>
+						<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"></a>
+					</div>
+				</div>
+			</div>
+            <div class="section-title text-center mt-5 pt-5">
+                <h3 id="titulo">Declare o seu Apoio</h3>
+            </div><!-- end title -->
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact_form">
@@ -434,7 +496,7 @@
 								</div>
 								<textarea class="form-control col-lg-12 col-md-12 col-sm-12 col-xs-12" name="mensagem" id="mensagem" rows="6" placeholder="Mensagem:"></textarea>
                                 <div class="text-center pdi">
-                                   <input type="submit" value="Enviar" id="enviar" name="enviar">
+                                   <button class="hvr-bounce-to-right cd-hero__btn" type="submit" value="Enviar" >Enviar</button>
                                 </div>
                             </div>
                         </form>
