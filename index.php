@@ -315,6 +315,8 @@
 					<li data-target="#carouselApoiadores" data-slide-to="2"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="3"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="4"></li>
+					<li data-target="#carouselApoiadores" data-slide-to="5"></li>
+					<li data-target="#carouselApoiadores" data-slide-to="6"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active" data>
@@ -386,7 +388,7 @@
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">EDISON NOGUEIRA</h3>
-								<p class="text-center">Engenheiro Civil e de Segurança do Trabalho</p>
+								<p class="text-center">Engenheiro Civil e de Segurança do Trabalho, Msc</p>
 							</div>
 						</div>
 					</div>
@@ -403,8 +405,45 @@
 								<p class="text-center"><b>"A plataforma apresentada pela Iara me leva a crer , que sob sua administração o CREA-RJ  será dinâmico , moderno e transparente.</b> Por tudo isso tem meu apoio."</p>
 							</div>
 							<div class="card-footer">
-								<h3 class="text-center">Alvaro Senna</h3>
+								<h3 class="text-center">Álvaro Senna</h3>
 								<p class="text-center">Engenheiro Civil</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item" data>
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center mb-5">
+								<img src="apoiadores/FernandoLima.png" class="img-fluid img-rounded">	
+							</div>
+							<div class="card-title clearfix">
+								<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+								<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
+							</div>
+							<div class="card-text">
+								<p class="text-center">Apoio a Engenheira Iara Nagle para Presidente do CREA-RJ,<b> porque tem preparo e competência para realizar um excelente trabalho, com grandes mudanças no Conselho Profissional."</b></p>
+							</div>
+							<div class="card-footer">
+								<h3 class="text-center">FERNANDO LIMA FILHO</h3>
+								<p class="text-center">Engenheiro Oper. Eletrôn., Elétrico e de Segurança do Trabalho</p>
+								<p class="text-center">Presidente da SobesRio</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item" data>
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center mb-5">
+								<img src="apoiadores/JoseAraujo.png" class="img-fluid img-rounded">	
+							</div>
+							<div class="card-title clearfix">
+							<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
+							</div>
+							<div class="card-text">
+								<p class="text-center mx-2">"Apoio IARA NAGLE para a Presidência do CREA-RJ <b>por confiar que fará um mandato voltado para o profissional graças à sua competência e conhecimento do Sistema CONFEA/CREA</b>"</p>
+							</div>
+							<div class="card-footer">
+								<h3 class="text-center">JOSÉ ARAUJO</h3>
+								<p class="text-center">Engenheiro Eletricista</p>
 							</div>
 						</div>
 					</div>
