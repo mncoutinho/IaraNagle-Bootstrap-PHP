@@ -31,7 +31,7 @@
 -------------------------------------------------------------------*/
 
 body {
-    color: #999;
+    color: #ffffff;
     font-size: 15px;
     font-family: 'univia-l';
     line-height: 1.80857;
@@ -1192,7 +1192,6 @@ body.app_version .header_style_01.fixed-menu{
 }
 #boxCompromisso{
     background:#023b64;
-    margin-bottom: 15px;
 }
 #propostaSubtitulo{
     color: #dc137b;
@@ -1208,6 +1207,10 @@ body.app_version .header_style_01.fixed-menu{
     width: 80%;
 }
 #titulo{
+    font-size: 48px;
+    font-family: univia-b;
+}
+#tituloDeclare{
     font-size: 48px;
     font-family: univia-b;
 }
@@ -1295,10 +1298,10 @@ padding: 35% 0;
     font-family: univia-b;
 }
 #compromissoTexto{
-    color:white;
     font-size: 19px;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: bolder;
 }
 /*------------------------------------------------------------------
     CONTACT
@@ -1829,10 +1832,6 @@ body.app_version .dev-list .widget-title small{
     animation: sonarEffect 1.3s ease-out 75ms;
 }
 
-.bg-slide{
-}
-
-
 .section-top {
 	margin-top: 60px;
 	background-image: url(images/bg-1.jpeg);
@@ -1909,10 +1908,19 @@ hr {
     #TituloPropostas{
         font-size: 36px;
     }
+    #compromissoTexto{
+        font-size: 12px;
+        font-weight: 600;
+    }
 }
 @media (max-width: 720px) {
     #TituloPropostas{
         font-size: 30px;
+    }
+    #compromissoTexto p{
+        font-size: 12px;
+        font-weight: bold;
+
     }
 }
 @media (max-width:540px) {
@@ -1920,7 +1928,11 @@ hr {
         font-size: 26px;
     }
     #videos{
-        height: 150%;
+        height: 190%;
+    }
+    #tituloDeclare{
+        font-size: 36px;
+        font-family: univia-b;
     }
 }
 @media (max-width: 450px){
