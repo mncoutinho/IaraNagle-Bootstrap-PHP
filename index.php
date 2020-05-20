@@ -402,7 +402,7 @@
 							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center"><b>"A plataforma apresentada pela Iara me leva a crer , que sob sua administração o CREA-RJ  será dinâmico , moderno e transparente.</b> Por tudo isso tem meu apoio."</p>
+								<p class="text-center"><b>"A plataforma apresentada pela Iara me leva a crer que, sob sua administração, o CREA-RJ será dinâmico, moderno e transparente.</b> Por tudo isso tem meu apoio."</p>
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">Álvaro Senna</h3>
@@ -457,10 +457,38 @@
 			</div>
 		</div>
 	</div>
+	<div id="videos">
+		<div class="container">
+			<div class="text-center">
+			  	<h3 id="titulo"
+			  	class="title-uni py-5">Videos</h3>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-md text-center">
+					<h3>André Luiz Palomanes</h3>
+					<div class="embed-responsive embed-responsive-9by16">
+						<iframe class="embed-responsive-item" src="./videos/AndreLuizPalomanes.mp4" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md text-center">
+					<h3>Sergio Abunahman</h3>
+					<div class="embed-responsive embed-responsive-9by16">
+						<iframe class="embed-responsive-item" src="./videos/SergioAbunahman.mp4" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="col-sm-12 col-md text-center">
+					<h3>Suzana Sattamini</h3>
+					<div class="embed-responsive embed-responsive-9by16">
+						<iframe class="embed-responsive-item" src="./videos/SuzanaSattamini.mp4" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
     <div id="contact" class="section lb">
         <div class="container py-5">
 		<div class="section-title text-center pt-5">
-                <h3>Porque voto em Iara?</h3>
+                <h3 id="tituloDeclare">Porque voto em Iara?</h3>
             </div><!-- end title -->
 			<div class="row">
 				<div class="col-4">
@@ -513,7 +541,7 @@
 				</div>
 			</div>
             <div class="section-title text-center mt-5 pt-5">
-                <h3 id="titulo">Declare o seu Apoio</h3>
+				<h3 id="tituloDeclare">Declare o seu Apoio</h3>
             </div><!-- end title -->
             <div class="row">
                 <div class="col-md-12">
