@@ -989,7 +989,7 @@ body.app_version .header_style_01.fixed-menu{
 }
 #videos{
     margin-bottom: 30px;
-    height: 80%;
+    height: auto;
 }
 .embed-responsive {
     position: relative;
@@ -1084,7 +1084,7 @@ body.app_version .header_style_01.fixed-menu{
     border-color: #fe0d78;
     opacity: 1;
 }
-@media only screen and (max-width: 479px){
+@media screen and (max-width: 479px){
     .owl-buttons{ bottom: 30%; }
 }
 
@@ -1899,12 +1899,13 @@ hr {
     background-color: white;
  
  }
-@media (max-width: 1000px) {
+
+@media screen and (max-width: 1000px) {
     #TituloPropostas{
         font-size: 40px;
     }
 }
-@media (max-width: 780px) {
+@media screen and (max-width: 780px) {
     #TituloPropostas{
         font-size: 36px;
     }
@@ -1923,19 +1924,17 @@ hr {
 
     }
 }
-@media (max-width:540px) {
+@media screen and (max-width: 540px) {
     #TituloPropostas{
         font-size: 26px;
     }
-    #videos{
-        height: 190%;
-    }
+    
     #tituloDeclare{
         font-size: 36px;
         font-family: univia-b;
     }
 }
-@media (max-width: 450px){
+@media screen and (max-width: 450px){
     .card-text{
         font-size:18px;
         margin-left: 5px;
@@ -1993,11 +1992,12 @@ hr {
         font-size: 12px;
     }
 }
-@media (max-width:370px){
+@media screen and (max-width: 370px){
     #marcatexto2{
         font-size: 9px
     }
     #marcatexto{
         font-size: 9px;
     }
+
 }

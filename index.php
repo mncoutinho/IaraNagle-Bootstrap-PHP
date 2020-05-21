@@ -301,7 +301,7 @@
 			</div>
 		  </div>
 	</section> <!-- .cd-hero -->
-	<div id="apoiadores" class="section wb section-parceiros">
+<div id="apoiadores" class="section wb section-parceiros">
         <div class="">
             <div class="section-title text-center">
 			  <h3 id="titulo"
@@ -317,11 +317,12 @@
 					<li data-target="#carouselApoiadores" data-slide-to="4"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="5"></li>
 					<li data-target="#carouselApoiadores" data-slide-to="6"></li>
+					<li data-target="#carouselApoiadores" data-slide-to="7"></li>
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active" data>
 						<div id="card-apoiadores text-center">
-							<div class="card-image text-center mb-5">
+							<div class="card-image text-center">
 								<img src="apoiadores/Bruno.png" class="img-fluid img-rounded">	
 							</div>
 							<div class="card-title clearfix">
@@ -329,7 +330,7 @@
 							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center">"Eu apoio Iara Nagle para a Presidência do CREA-RJ<b> por entender que o Conselho precisa de mudanças e de maior valorização profissional."</b></p>
+								<p class="text-center mx-2">"Eu apoio Iara Nagle para a Presidência do CREA-RJ<b> por entender que o Conselho precisa de mudanças e de maior valorização profissional."</b></p>
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">BRUNO DE BONIS</h3>
@@ -339,7 +340,7 @@
 					</div>
 					<div class="carousel-item text-center">
 						<div id="card-apoiadores text-center">
-							<div class="card-image text-center mb-5">
+							<div class="card-image text-center">
 								<img src="apoiadores/suzanaSattamini.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
@@ -347,7 +348,7 @@
 								<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center"><b>"Por um conselho que valorize seus profissionais, com gestão informatizada, ágil e descomplicada,</b> eu apoio Iara Nagle para Presidente do CREA-RJ."</p>
+								<p class="text-center mx-2"><b>"Por um conselho que valorize seus profissionais, com gestão informatizada, ágil e descomplicada,</b> eu apoio Iara Nagle para Presidente do CREA-RJ."</p>
 							</div> 
 							<div class="card-footer">
 								<h3 class="text-center">SUZANA SATTAMINI</h3>
@@ -357,7 +358,7 @@
 					</div>
 					<div class="carousel-item">
 						<div id="card-apoiadores text-center">
-							<div class="card-image text-center mb-5">
+							<div class="card-image text-center">
 								<img src="apoiadores/AntonioBatista.png">
 							</div>
 							<div class="card-title">
@@ -365,8 +366,8 @@
 								<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center ">"Eu apoio a IARA para Presidente do CREA-RJ,<b> por conhecer a sua seriedade e competência e acreditar que o Conselho será mais eficiente e útil para todos nós .</b></p>
-								<p class="text-center"><b>Sou candidato a Diretor Geral da MUTUA-RJ, número 62, e a nossa parceria fará a diferença."</b></p>
+								<p class="text-center  mx-2">"Eu apoio a IARA para Presidente do CREA-RJ,<b> por conhecer a sua seriedade e competência e acreditar que o Conselho será mais eficiente e útil para todos nós .</b></p>
+								<p class="text-center mx-2"><b>Sou candidato a Diretor Geral da MUTUA-RJ, número 62, e a nossa parceria fará a diferença."</b></p>
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">ANTONIO BATISTA</h3>
@@ -376,7 +377,7 @@
 					</div>
 					<div class="carousel-item">
 						<div id="card-apoiadores text-center">
-							<div class="card-image text-center mb-5">
+							<div class="card-image text-center">
 								<img src="apoiadores/EdisonNogueira.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
@@ -384,7 +385,7 @@
 							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center">"Apoio a Iara Nagle para Presidente do CREA-RJ <b>pela sua experiência nas entidades de classe e no Sistema Confea/Crea e por acreditar na valorização da Engenharia."</b></p>
+								<p class="text-center mx-2">"Apoio a Iara Nagle para Presidente do CREA-RJ <b>pela sua experiência nas entidades de classe e no Sistema Confea/Crea e por acreditar na valorização da Engenharia."</b></p>
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">EDISON NOGUEIRA</h3>
@@ -394,7 +395,7 @@
 					</div>
 					<div class="carousel-item">
 						<div id="card-apoiadores text-center">
-							<div class="card-image text-center mb-5">
+							<div class="card-image text-center">
 								<img src="apoiadores/AlvaroSenna.png" class="img-fluid img-rounded">
 							</div>
 							<div class="card-title">
@@ -402,17 +403,17 @@
 							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center"><b>"A plataforma apresentada pela Iara me leva a crer que, sob sua administração, o CREA-RJ será dinâmico, moderno e transparente.</b> Por tudo isso tem meu apoio."</p>
+								<p class="text-center mx-2"><b>"A plataforma apresentada pela Iara me leva a crer que, sob sua administração, o CREA-RJ será dinâmico, moderno e transparente.</b> Por tudo isso tem meu apoio."</p>
 							</div>
 							<div class="card-footer">
-								<h3 class="text-center">Álvaro Senna</h3>
+								<h3 class="text-center">ÁLVARO SENNA</h3>
 								<p class="text-center">Engenheiro Civil</p>
 							</div>
 						</div>
 					</div>
 					<div class="carousel-item" data>
 						<div id="card-apoiadores text-center">
-							<div class="card-image text-center mb-5">
+							<div class="card-image text-center">
 								<img src="apoiadores/FernandoLima.png" class="img-fluid img-rounded">	
 							</div>
 							<div class="card-title clearfix">
@@ -420,7 +421,7 @@
 								<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
 							</div>
 							<div class="card-text">
-								<p class="text-center">Apoio a Engenheira Iara Nagle para Presidente do CREA-RJ,<b> porque tem preparo e competência para realizar um excelente trabalho, com grandes mudanças no Conselho Profissional."</b></p>
+								<p class="text-center mx-2">Apoio a Engenheira Iara Nagle para Presidente do CREA-RJ,<b> porque tem preparo e competência para realizar um excelente trabalho, com grandes mudanças no Conselho Profissional."</b></p>
 							</div>
 							<div class="card-footer">
 								<h3 class="text-center">FERNANDO LIMA FILHO</h3>
@@ -431,7 +432,7 @@
 					</div>
 					<div class="carousel-item" data>
 						<div id="card-apoiadores text-center">
-							<div class="card-image text-center mb-5">
+							<div class="card-image text-center">
 								<img src="apoiadores/JoseAraujo.png" class="img-fluid img-rounded">	
 							</div>
 							<div class="card-title clearfix">
@@ -447,6 +448,24 @@
 							</div>
 						</div>
 					</div>
+					<div class="carousel-item">
+						<div id="card-apoiadores text-center">
+							<div class="card-image text-center">
+								<img src="apoiadores/IsaiasMasetti.png" class="img-fluid img-rounded">
+							</div>
+							<div class="card-title">
+							<span class="carousel-control-prev-icon float-left" aria-hidden="true"></span>
+							<span class="carousel-control-next-icon float-right" aria-hidden="true"></span>
+							</div>
+							<div class="card-text">
+								<p class="text-center mx-2"><b>"O CREA é fundamental na atuação de engenheiros, ao considerar as mudanças que urgem implementação, minha recomendação e meu voto é para IARA NAGLE,</b> para a presidência do CREA-RJ."</p>
+							</div>
+							<div class="card-footer">
+								<h3 class="text-center">ISAÍAS MASETTI</h3>
+								<p class="text-center">Engenheiro Civil, Naval e de Equipamentos, Msc</p>
+							</div>
+						</div>
+					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselApoiadores" role="button" data-slide="prev">
 					
@@ -458,28 +477,38 @@
 		</div>
 	</div>
 	<div id="videos">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="text-center">
 			  	<h3 id="titulo"
 			  	class="title-uni py-5">Videos</h3>
 			</div>
 			<div class="row">
-				<div class="col-sm-12 col-md text-center">
+				<div class="col text-center">
 					<h3>André Luiz Palomanes</h3>
 					<div class="embed-responsive embed-responsive-9by16">
-						<iframe class="embed-responsive-item" src="./videos/AndreLuizPalomanes.mp4" allowfullscreen></iframe>
+						<iframe class="embed-responsive-item" src="https://www.youtube.com//embed/G9NIFQaCD1E" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md text-center">
+				<div class="w-100 d-block d-md-none"></div>
+				<div class="col text-center">
 					<h3>Sergio Abunahman</h3>
 					<div class="embed-responsive embed-responsive-9by16">
-						<iframe class="embed-responsive-item" src="./videos/SergioAbunahman.mp4" allowfullscreen></iframe>
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7LIMH76GrI8" allowfullscreen></iframe>
 					</div>
 				</div>
-				<div class="col-sm-12 col-md text-center">
+				<div class="w-100 d-block d-md-none"></div>
+				<div class="col text-center">
 					<h3>Suzana Sattamini</h3>
 					<div class="embed-responsive embed-responsive-9by16">
-						<iframe class="embed-responsive-item" src="./videos/SuzanaSattamini.mp4" allowfullscreen></iframe>
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w1PcsAPbYGo" allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col col-md-4 text-center">
+					<h3>Ricardo Salomão</h3>
+					<div class="embed-responsive embed-responsive-9by16">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com//embed/Nqx582LsV_8" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
