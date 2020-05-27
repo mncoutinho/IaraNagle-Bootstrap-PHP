@@ -987,6 +987,13 @@ body.app_version .header_style_01.fixed-menu{
     font-family: "univia-b";
     font-style: italic;
 }
+#videos h5{
+    font-size: 18px;
+    color:#fe0d78;
+    font-weight: bold;
+    font-family: "univia-b";
+    font-style: italic;
+}
 #videos{
     margin-bottom: 30px;
     height: auto;
