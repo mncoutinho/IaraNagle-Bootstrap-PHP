@@ -73,6 +73,7 @@
 							<li><a class="nav-link" href="#perfil"><b>Perfil</b></a></li>						
 							<li><a class="nav-link" href="#propostas"><b>Propostas</b></a></li>
 							<li><a class="nav-link" href="#apoiadores"><b>Parceiros</b></a></li>
+							<li><a class="nav-link" href="#videos"><b>Videos</b></a></li>
 							<li><a class="nav-link" href="#contact"><b>Declare Seu Apoio</b></a></li>
 							<li>
 							<div class=""
@@ -283,10 +284,10 @@
 					</div>
 					<div class="row mt-3 border" id="compromisso">
 						<div class="col">
-							<h1 id="compromissoTitulo" class="mt-3"><b>Compromisso:</b></h1>
-							<div id="compromissoTexto">
-								<strong class="text-center">O que não for atribuição específica do CREA-RJ será executado em conjunto com as Entidades de Classe e de Ensino.</strong>
-							</div>
+						<h1 id="compromissoTitulo" class="mt-3"><b>Compromisso:</b></h1>
+						<div id="compromissoTexto">
+							<strong class="text-center">O que não for atribuição exclusiva do CREA-RJ será executado em conjunto com as Entidades de Classe e de Ensino.</strong>
+						</div>					
 						</div>
 					</div>
 				</div>
